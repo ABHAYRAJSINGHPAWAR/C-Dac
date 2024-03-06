@@ -1,0 +1,18 @@
+Section-I
+----------
+1. Setup up GCC compiler as per the document shared.
+2. Write a program in C which calculates average of three integer numbers 
+   given by user.
+3. Implement a program in C to swap the values of two variables.
+
+Section-II
+---------
+Write algorithms & flowcharts for questions shown below.
+1. Display the area and perimeter of a rectangle, take required input from user?
+Hint : 
+Area = width * height
+Perimeter = 2 * ( width + height)
+
+2. Read two numbers from user in variables, swap their values and display?
+
+

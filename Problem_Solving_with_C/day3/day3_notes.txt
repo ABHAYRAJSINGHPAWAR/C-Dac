@@ -1,0 +1,232 @@
+LBPS Batch-1 Day 3
+-------------------
+
+Problem-1: Count number of digits in an integer number.
+Enter a number : 12345
+Digit count : 5
+Enter a number : 0
+Digit count : 1
+Enter a number : 012
+Digit count : 2
+
+12345/10 -> 1234
+1234/10  -> 123
+123/10   -> 12
+12/10    -> 1
+1/10     -> 0
+
+Algorithm-1:
+1. Start 
+2. Read num 
+3. If num==0: 
+    Display "1", Go to Stp-7.
+4. count = 0, temp = num 
+5. Repeat till temp!=0:
+     temp = temp/10
+	 count = count+1
+6. Display count
+7. Stop 
+
+Algorithm-2:
+1. Start 
+2. Read num 
+3. count=0,temp=num
+4. 
+   4.1 temp = temp/10 
+   4.2 count = count+1
+   4.3 go to step 4.1 if temp!=0
+5. Display count 
+6. Stop 
+   
+Problem-2: Find out sum of all digits of a given integer number.
+Enter a number : 123
+Result : 6
+Enter a number : 0 
+Result : 0
+Enter a number : 9845 
+Result : 9+8+4+5=26
+
+1234 % 10 -> 4 , 1234 -> 1234/10=123
+123 % 10  -> 3 , 123 -> 123/10 = 12
+12 % 10   -> 2 , 12 -> 12/10 = 1
+1%10      -> 1 , 1 -> 1/10 = 0
+
+Algorithm:
+1. Start 
+2. Read num 
+3. temp=num, sum=0
+4. repeat till temp != 0 : 
+    sum = sum + temp%10
+	temp = temp/10
+5. Display sum 
+6. Stop
+
+Problem-3:Find out the reverse of a given integer number.
+Enter number : 123
+Reverse : 321 
+
+123%10 = 3 , 123-> 123/10 = 12
+12%10 = 2    12 -> 12/10 = 1
+1%10 = 1     1  -> 1/10 = 0
+
+Algorithm:
+1. Start 
+2. Read num 
+3. temp=num, rev=0
+4. Repeat till temp!=0:
+     rev = rev*10 + temp%10
+	 temp = temp/10
+5. Display rev 
+6. Stop 
+
+Problem-4: Display the first N terms of Fibonacci series.
+>> Enter no. of terms: 4
+0,1,1,2
+>> Enter no. of terms: 1
+0
+>> Enter no. of terms: 2
+0,1
+
+0,1,1,2,3,5,8,13,21....
+
+Value at Nth term will be 
+f(n) = f(n-1) + f(n-2)
+
+Algorithm:
+1. Start 
+2. Read N 
+3. n1=0,n2=1,n3
+4. i=0, repeat till i < N
+   If i <= 1:
+      Display i
+   Else 
+      n3 = n1+n2 
+	  Display n3 
+	  n1=n2
+	  n2=n3
+   i++	  
+5. Stop 
+	
+
+Algorithm-2:
+1. Start 
+2. Read N 
+3. If N==1 : 
+     Print "0"
+   Else If N >= 2:
+     Print "0 1"
+4. n1=0, n2=1, n3 	 
+5. i=3, repeat till i<=N:
+    n3 = n1 + n2 
+    Print n3	
+	n1=n2
+	n2=n3
+	i++
+6. Stop
+
+Problem-5: Calculate the factorial of a given integer number.
+Enter number: 5
+Factorial= 5*4*3*2*1= 2*3*4*5*1 = 120
+
+f(n)= n* n-1 * n-2 * n-3 .... 3 * 2 * 1 
+
+Algorithm:
+1. Start 
+2. Read num 
+3. i=num, fact=1
+4. Repeat till i > 1:
+    fact = fact * i 
+	i--
+5. Display fact 
+	
+
+Problem-6: Find sum of factorial of 3 numbers given by user. 
+Algorithm:
+1. Start 
+2. Read num1,num2,num3 
+
+3. i=num1, fact1=1
+4. Repeat till i > 1:
+    fact1 = fact1 * i 
+	i--
+
+3. i=num2, fact2=1
+4. Repeat till i > 1:
+    fact2 = fact2 * i 
+	i--
+	
+3. i=num3, fact3=1
+4. Repeat till i > 1:
+    fact3 = fact3 * i 
+	i--
+	
+5. sum = fact1+fact2+fact3 
+5. Display sum 
+
+
+Problem-7: 
+Build Calculator to calculate add,substract,multiply,divide,mode.
+User should be able to choose from the options. 
+
+*** Welcome to My Calculator ***
+1. Add
+2. Substract 
+3. Multiply
+4. Divide 
+5. Mod 
+6. Exit
+Enter your choice : 1
+Enter two numbers : 10 20 
+Result = 30 
+
+*** Welcome to My Calculator ***
+1. Add
+2. Substract 
+3. Multiply
+4. Divide 
+5. Mod 
+6. Exit 
+Enter your choice : 5
+Enter two numbers : 123 10 
+Result: 12 
+
+*** Welcome to My Calculator ***
+1. Add
+2. Substract 
+3. Multiply
+4. Divide 
+5. Mod 
+6. Exit 
+Enter your choice : 6
+
+Algorithm:
+1. Start 
+2. Display calcOptionsMenu() 
+3. Read choice 
+4. Read n1, n2 
+5. switch on choice:
+   case-1 : add(n1,n2),break
+   case-2 : sub(n1,n2),break
+   case-3 : mul(n1,n2),break
+   case-4 : div(n1,n2),break
+   case-5 : mod(n1,n2),break
+6. If choice !=6, go to step-2  
+7. Stop  
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

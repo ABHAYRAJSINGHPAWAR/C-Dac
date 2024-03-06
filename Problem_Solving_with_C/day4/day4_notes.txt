@@ -1,0 +1,144 @@
+LBPS - Day4
+-----------
+1. Accept array of N numbers(age of person) and display the average age?
+>> How many numbers you want to enter ? 
+   5 
+>> Enter 5 numbers : 
+   33 45 65 24 22 
+   Average =  
+
+Problem-2: 
+Write a program to find the number of times 
+a given number appears in an array.
+
+    arr[] = {1,2,3,4,1,5,6,4,6,7,4}
+	target = 4
+	result = 3
+	
+    int find(int arr[], int size, int target){	
+	}
+
+Algorithm:
+1. Start 
+2. Read size
+3. Declare arr[size]
+4. populateData(arr,size)
+3. Read target 
+4. result = find(arr,size,target)
+5. Display result 
+6. Stop 
+
+Algorithm for find(arr,size,target):
+1. Start 
+2. freq = 0
+3. i=0, repeat till i <size: 
+      If arr[i]== target:
+	     freq++
+4. Return freq
+5. Stop 
+
+Algorithm for populateData(arr,size):
+1. Start 
+2. i=0, repeat till i<size:
+      arr[i]= read data 
+3.Stop 
+
+
+arr[] = {1,2,3}
+arr[0] = 100
+arr[1] = 200
+arr[2] = 200
+
+Problem-3: 
+Write a program to find a pair with given sum in the array.
+
+>> [2,4,6,1,9,-5,-8], target= 10
+    index (1,2),(3,4)	
+	void findPairAndDisplay(int arr[], int size, int target)
+		
+	[2,4,3,5,7] target = 10
+	
+     for(int i=0;i<size-1;i++){
+	    for(int j=i+1;j<size;j++){
+		   int sum = arr[i] + arr[j]
+		   if(sum == 10){
+		      //found 
+			  print i,j
+		   }
+		}	 
+	 }
+
+
+Problem-3:
+Write a program to separate even and odd numbers in an array
+
+arr = [1,2,3,4,5,6]
+int even[6], odd[6]
+
+int j=-1,k=-1;
+for(int i=0;i<size;i++){
+  if(arr[i]%2 == 0){
+	even[++j] = arr[i];
+  }else{
+	odd[++k] = arr[i];
+  }  
+}
+
+Problem-4: Write a program to move all zeros to the start of an Array.
+>> arr = [0,1, 2, 0, 3, 0, 0,6]
+>> arr = [0,0,0,0....]
+
+Algorithm:
+1. Start 
+2. Read arr[size]
+3. i=0, j=size-1
+4. Repeat till i<j:
+     if(arr[i]!=0 && ar[j]==0)
+	   swap(arr[i],arr[j])	
+	   
+     if arr[i] == 0:
+	    i++
+     if arr[j] != 0:
+	    j--
+5. Display arr	 
+6. Stop 
+
+
+Problem-5: Reverse an array of integers.
+>> arr = [1,2,3,4,5]
+   result = [5,4,3,2,1]
+
+Algorithm:
+1. Start 
+2. Read arr[size] 
+3. i=0, j=size-1
+4. Repeat till i<j:
+    swap(arr[i],arr[j])
+    i++, j--
+	
+5. Display arr
+6. Stop 
+
+Problem-6: 
+Write a program to create new sorted array by merging 
+two sorted arrays.
+
+>> a = [1,4,5], b = [2,6,8,9]
+>> result = [1,2,4,5,6,8,9]
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+

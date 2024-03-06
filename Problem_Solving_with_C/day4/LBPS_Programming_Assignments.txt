@@ -1,0 +1,351 @@
+----------------------------------------------------
+***************** LBPS Assignments  ****************
+----------------------------------------------------
+
+1. Write a program to print 'Hello' on screen and then print your name on the same line. 
+Hello Shakir
+
+2. Write a program to print 'Hello' on screen and then print your name on a separate line.
+Hello
+Shakir
+
+3. Write a program to print following face(pattern) on screen
+ +"""""+                                  
+[| o o |]                                                
+ |  ^  |                                                 
+ | '-' |                                                 
+ +-----+
+ 
+4. Write a program that takes two numbers as input and prints their sum.
+
+5. Write a program which calculates average of three numbers given by user.
+
+6. Implement a program to swap the values of two variables.
+
+7. Implement a program to swap the values of two variables without using a third variable.
+
+8. Write a program to calculate simple interest, take required input from user.
+Hint :  SI = (principal * rate * years)/100
+
+9. Write a program to print the area and perimeter of a rectangle, take required input from user?
+Hint : 
+Area = width * height
+Perimeter = 2 * ( width + height)
+
+10. Write a program to calculate the monthly in hand salary of an employee : 
+	take user input for basic salary,
+	HRA is 40% of basic salary,
+	PF amount to be deducted is 12% of basic,
+	Medical allowance is Rs 1200 per month, 
+	Traveling allowance is Rs 800 per month,
+	Professional tax to be deducted is Rs 300.
+	
+Example:	
+	basic = 10000.0; //user input
+	hra = 0.40 * basic;
+	pf = 0.12 * basic;
+	inHandSalary = basic  + hra - pf + 1200 + 800 - 300;
+	
+-------------------Decision making problems---------------------------
+
+11. Write a program to accept two integers and check whether they are equal or not?
+>> Enter two integers : 15 15
+ first and second number are equal.
+ 
+12. Write a program to check if a given number is divisble by 3 and 5?
+
+13. Write a program to check whether a given number is even or odd?
+
+14. Write a program to read a number entered by user. 
+    Print -1 if  this number is negative, 1 if it is positive, 
+	0 if it is neither positive nor negative?
+
+15. Write a program to find the largest of two numbers?
+
+16. Write a program to find the largest of three numbers?
+
+17. Write a program to find the smallest of five numbers?
+
+18. Write a program to read temperature in centigrade and display a suitable message 
+according to temperature state below :
+
+Temp < 0 then Freezing weather
+Temp 0-10 then Very Cold weather
+Temp 10-20 then Cold weather
+Temp 20-30 then Normal in Temp
+Temp 30-40 then Its Hot
+Temp >=40 then Its Very Hot
+
+19. Write a program to ask user to enter test marks of three subjects such as Phy, Chem, Math. 
+Max marks for each subject is 100. 
+Now calculate average of marks. 
+Display following message based on average marks calculated - 
+
+avg < 30 : You are failed.
+avg >= 30 but < 60 : You passed with Second division
+avg >=60 but < 80 : You passed wirh First division
+avg>=80 : You passed with First class distinction
+
+20. Write a program to ask user to enter a number between 1 and 7, 
+print week day as per below mappings - 
+ (1 - Monday, 2-Tuesday, .... 7-Sunday)
+
+21. Write a program to ask user to enter month number (1-12) , 
+print month name as per below mappings - 
+(1 - January, 2-Feburary ... 12- December)
+
+22. Write a program to check whether an alphabet is vowel or consonant using switch case.
+
+23. Implement a calculator that takes two numbers and an operator as input. 
+Use a switch statement to perform addition, subtraction, multiplication, 
+or division based on the operator.
+
+24. Develop a program that takes a color code (R, G, B) as input 
+and prints the corresponding color name. 
+Use a switch statement to handle different color codes.
+
+25. Write a program that takes a student's score as input and prints the corresponding grade.
+Score range : 0 to 100
+Grades are decided based on below logic : 
+90 to 100 : A
+80 to 89  : B
+70 to 79  : C
+50 to 69  : D
+Below 50  : E
+
+--------------------Problems on loops-----------------------
+26. Write a C program to print first 10 natural numbers using while loop?
+
+27. Write a C program to print first N natural numbers using do-while loop?
+
+28. Write a C program to print all even numbers between 1 and N using for loop?
+
+29. Write a program to print 1 to N in reverse order? 
+
+30. Write a program to display the multiplication table of a given integer?
+>> Enter the number : 5
+	5 X 1 = 5
+	5 X 2 = 10
+	.
+	.
+	5 X 10 = 50
+
+31. Write a program to calculate the factorial of the given number?
+
+32. Write a program to count number of digits in a number.
+
+33. Write a program to calculate product of digits of a number.
+
+34. Write a program to enter a number and print its reverse.
+Example:
+Enter a number : 156
+Output : 651
+
+35. Write a program to check whether a given number is palindrome or not.
+Hint : Palindrome number is such number which when reversed is equal to the original number. 
+       For example: 121, 12321, 1001 etc
+
+36. Write a program to display the first n terms of Fibonacci series. 
+Example :
+Input number of terms to display : 10
+Here is the Fibonacci series upto to 10 terms :
+0 1 1 2 3 5 8 13 21 34
+
+37. Write a C program to enter a number and print it in words.
+Example : 
+Enter a number : 123
+Output : One Two Three
+
+38. Write a C program to find power of a number using for loop.
+Example : 
+Input : 5 4
+Output : 625  // 5*5*5*5=625
+
+39. Write a C program to check whether a number is Prime number or not.
+
+40. Write a C program to check whether a number is Armstrong number or not.
+Hint: An Armstrong number is a n-digit number that is equal to the sum of the nth power of its digits. 
+For example –(here ^ represents power of)
+6 = 6^1 = 6
+371 = 3^3 + 7^3 + 1^3 = 371 
+
+41. Write a C program to check whether a number is Perfect number or not.
+Hint: Perfect number is a positive integer which is equal to the sum of its proper positive divisors.
+For example: 6 is the first perfect number
+Proper divisors of 6 are 1, 2, 3
+Sum of its proper divisors = 1 + 2 + 3 = 6.
+Hence 6 is a perfect number.
+
+42. Write a C program to check whether a number is Strong number or not.
+Hint: Strong number is a special number whose sum of factorial of digits is equal to the original number.
+For example: 145 is strong number. Since, 1! + 4! + 5! = 145
+
+-------------- Problems on Printing patterns(loops) --------------------
+43. Write a program to take row count from user and display the pattern like right angle triangle of asterisks using loop.
+
+Example:
+Enter number of rows : 4
+*
+**
+***
+****
+
+44. Write a program to display the pattern like right angle triangle with a number as shown below. 
+
+Example:
+Enter number of rows : 4
+1
+12
+123
+1234
+
+45. Write a program to make such a pattern like right angle triangle with a number which will repeat a number in a row, as shown below : 
+
+Example:
+Enter number of rows : 4
+1
+22
+333
+4444
+
+46. Write a program to make such a pattern like right angle triangle with number increased by 1 as shown below : 
+
+Example:
+Enter number of rows : 4
+1
+2 3
+4 5 6
+7 8 9 10
+
+47. Write a program to make such a pattern like a pyramid with an asterisk, as show below.
+Example:
+Enter number of rows : 4
+
+   * 
+  * * 
+ * * * 
+* * * *
+
+48. Write a program to print mirrored right triangle star pattern series using loop.
+
+Example:
+Enter number of rows : 5
+
+    *
+   **
+  ***
+ ****
+*****
+
+49. Write a program to print reversed mirrored right triangle star pattern of n rows using loop.
+
+Example:
+Enter number of rows: 4
+****
+ ***
+  **
+   *
+
+50. Write a program to print the given triangle number pattern using 0, 1
+
+Example:
+Enter number of rows: 5
+1
+00
+111
+0000
+11111
+
+-------------------- Problems on Functions ------------------
+51. Write a program to find cube of any number using function.
+
+52. Write a program to find circumference and area of circle using functions.
+
+53. Write a program to find all prime numbers between given interval using functions.
+
+54. Write a program to swap two numbers using function, demonstate difference between 
+pass by value and pass by reference using this example.
+
+-------------------- Problems on Functions(recursion) ------------------
+54. Write a program to find power of any number using recursion.
+
+55. Write a program to print all natural numbers between 1 to n using recursion.
+
+56. Write a program to find factorial of any number using recursion.
+
+57. Write a C program to generate nth Fibonacci term using recursion.
+
+------------  Problems on Array -----------------
+
+58. Write a program to accept N numbers from user and store in an array. Now, 
+display all negative numbers present in the array.
+
+59. Write a program to accept N numbers from user and store in an array. 
+Now, find maximum and minimum from the array.
+
+60. Write a program to find second largest element in an array.
+
+61. Write a program to copy all elements from an array to another array.
+
+62. Write a program to insert an element in an array on integers.
+
+63. Write a program to delete an element from an array at specified position.
+
+64. Write a program to count frequency of each element in an array.
+
+65. Write a program to print all unique elements in the array.
+
+66. Write a program to find reverse of an array.
+
+67. Write a program to put even and odd elements of array in two separate array.
+
+68. Write a program to search an element in an array.
+
+69.=> Write a program to count the total number of duplicate elements in an array.
+
+70.=> Write a program to print all unique elements in an array.
+
+71.=> Write a program to find a pair with given sum in the array.
+Example:
+The given array : 6 8 4 -5 7 9
+The given sum : 15
+Pair of elements can make the given sum by the value of index 0 and 5
+
+72.=> Write a program to find the number of times a given number appears in an array.
+Expected Output :
+The given array is : 2 3 4 4 4 4 5 5 5 6 7 7
+
+------------  Problems on String -----------------
+73. Write a C program to accept user name and greet him with some message.
+Example:
+Enter your name : Shakir
+Happy Learning. All the best Shakir.
+
+74. Write a C program to find length of a string (without using library function).
+
+75. Use library function to get the size of string entered by user.
+
+76. Write a C program to copy one string to another string.
+77. Write a C program to concatenate two strings.
+78. Write a C program to compare two strings.
+
+79. Write a C program to toggle case of each character of a string.
+
+80. Write a C program to find reverse of a string.
+     char msg[] = "Hello";
+	 msg[0], msg[1] 
+
+81. Write a C program to check whether a string is palindrome or not.
+      char msg[] = "tat"
+
+82. Write a C program to reverse order of words in a given string.
+
+83. Write a C program to remove all extra blank spaces from given string.
+
+85. Write a C program to find first occurrence of a word in a given string.
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+1. Write algorithm, flowchart & program for below question.
+
+BMI Calculator:
+Build a program that calculates the Body Mass Index (BMI) 
+based on the user's weight and height input. 
+Then, categorize the BMI into 
+underweight, normal weight, overweight, or obese.
+
+Hint:
+BMI = weight / (height * height)
+BMI Measurement	Weight Category
+Below 18.5	Underweight
+18.5 – 24.9	Normal weight
+25.0 – 29.9	Overweight
+30.0 and above	Obese
+
+
+2. Write algorithm, flowchart & program for below question.
+
+Implement a calculator that takes two numbers and an operator as input. 
+Use a switch statement to perform addition, subtraction, multiplication, 
+or division based on the operator.
+
+
+3. Write algorithm, flowchart & program for below question.
+
+Display the multiplication table of a given integer?
+Example:
+>> Enter the number : 5
+	5 X 1 = 5
+	5 X 2 = 10
+	.
+	.
+	5 X 10 = 50
+
+4. Write algorithm & C program for below patterns : 
+Example:
+Enter number of rows : 4
+
+*
+**
+***
+****
+
+5. Write algorithm & C program for below patterns : 
+Example:
+Enter number of rows : 5
+    *
+   **
+  ***
+ ****
+*****
+

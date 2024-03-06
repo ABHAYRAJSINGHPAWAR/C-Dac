@@ -1,0 +1,162 @@
+Day-2 : Logic Building & Problem Solving
+----------------------------------------
+
+Problem-1 : Given side of a square, find out area of biggest 
+circle which can be drawn inside square.
+
+Algorithm:
+1. Start
+2. Read side of the square
+3. radius = side/2.0
+4. area = 3.14 * radius * radius 
+5. Display area
+6. Stop
+
+Algorithm:
+1. Start
+2. Read side of the square
+3. area = 3.14 * (side/2.0) * (side/2.0) 
+4. Display area
+5. Stop
+
+Problem-2 : Check if the given integer number is Even.
+Algorithm:
+1. Start 
+2. Read num
+3. If num%2 == 0:
+      It is Even  
+   Else 
+      It is not Even 
+4.Stop
+
+
+Problem-3: Ask the user to input two numbers. 
+Compare the numbers and print a message indicating 
+which one is greater, or if they are equal.
+
+Enter 2 numbers:
+10 12 
+12 is greater.
+
+Enter 2 numbers:
+10 10 
+Both are equal.
+
+Algorithm:
+1. Start 
+2. Read num1, num2 
+3. If num1 == num2:
+      Both are equal.
+   Else If num1 > num2:
+      num1 is greater.
+   Else 
+      num2 is greater. 
+4.Stop
+
+Problem-4:Create a program that takes a single character 
+as input and determines if it's a vowel or a consonant. 
+
+Algorithm:
+1. Start 
+2. Read ch from user 
+3. If (ch >= 'A' && ch <='Z') || (ch >='a' && ch <='z') Then   
+		If ch=='a'||ch =='e'||ch=='i'||ch=='o'||ch=='u'||
+		  ch=='A'||ch =='E'||ch=='I'||ch=='O'||ch=='U' then 
+		  Display "this is Vowel"
+		Else 
+		  Display "this is Consonant"
+	Else 
+	  "Invalid alphabets"
+4. Stop 
+
+Problem-5: Find out max of 5 numbers given by user.
+Algorithm:
+1. Start
+2. Read a, b, c, d, e
+3. max = a
+4. If max < b : 
+      max = b
+5. If max < c : 
+      max = c 
+6. If max < d : 
+      max = d
+7. If max < e : 
+      max = e
+8. Display max 
+9. Stop 
+
+
+Problem-6: Display name of the day based on number enterd 
+by user.(1-Monday,2-Tuesday,3-Wednesday...7-Sunday)
+
+Algorithm:
+1. Start 
+2. Read num
+3. 
+	if num == 1 display "Monday"
+	else if num == 2 display "Tuesday"
+	else if num == 3 display "Wednesday"
+	else if num == 4 display "Thursday"
+	else if num == 5 display "Friday"
+	else if num == 6 display "Saturday"
+	else if num == 7 display "Sunday"
+	else display "Invalid number for day"
+	
+4. Stop
+
+Algorithm:
+1. Start 
+2. Read num
+3. Switch based on value of "num" 
+   Case 1 : Monday, break
+   Case 2 : Tuesday , break
+   Case 3 : Wednesday, break
+   Case 4 : Thursday, break
+   Case 5 : Friday, break
+   Case 6 : Saturday, break
+   Case 7 : Sunday, break
+   default : Invalid number for day
+4. Stop 
+
+
+Problem :  Find out the grade of a student if score is given.
+Score range : 0 to 100
+Grades are decided based on below logic : 
+90 to 100 : A
+80 to 89  : B
+70 to 79  : C
+50 to 69  : D
+Below 50  : E
+
+
+Algorithm-1:
+1. Start 
+2. Read score 
+3. If score <0 or score > 100 
+      Then Invalid score
+	  Got to step 5
+4. 
+	if score >=90 and score <=100 then display "A"
+	else if score >=80 and score <=89 then display "B"
+	else if score >=70 and score <=79 then display "C"
+	else if score >=50 and score <=69 then display "D"
+	else display "E"
+5. Stop 
+
+Algorithm-2:
+1. Start 
+2. Read score 
+3. If score < 0 or score > 100 
+      Display Error Message
+	  Got to step 6 
+4. t = score/10 
+5. Switch case on value of "t"
+   Case 9: 
+   Case 10: Display A ,break 
+   Case 8 : Display B , break 
+   Case 7 : Display C, break 
+   Case 6 : 
+   Case 5 : Display D, break
+   default : Display E 
+   
+6. Stop    

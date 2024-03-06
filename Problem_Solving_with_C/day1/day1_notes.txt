@@ -1,0 +1,130 @@
+LBPS (Logic building & Problem solving)
+---------------------------------------
+
+Language: means of communication
+
+Programming Language : language of computer/devices
+
+Program : set of instructions/commands 
+
+Programming Language types : 
+  1. Machine language (0/1)
+  2. Assembly language ( MOV, SUM ...)
+  3. High Level language 
+
+Translator-> 
+  Compiler 
+  Interpreter
+
+High Level language : C, C++, Java, Javascript, Python... 
+
+Lets talk about C language
+--------------------------
+
+C source file -> GCC compiler -> Machine understandable executable
+hello.c ---> hello.exe 
+
+
+alphabets : 
+   0-9, A-Z,a-z, : ;+-().....
+   
+words:
+  identifiers
+  keywords 
+     -> data types (int, float, double, char ) 
+	 
+--------------------------
+break till 9:50 am sharp
+---------------------------
+
+Q : Write a program to calculate the average of 2 numbers ? 
+ -> two numbers are integers
+ -> range of these numbers 
+ 
+Enter 2 numbers : 10 10 
+Average = 10
+
+Enter 2 numbers : 10 5
+Average = 7.5
+
+Enter 2 numbers : 1234567890 1234567890
+Average : 
+-----------------------------
+
+5/2 = 2 
+
+5.0/2 = 2.5
+5.0/2.0 = 2.5
+5/2.0 = 2.5
+
+
+Problem: Implement a program to swap the values of two integers variables.
+> Enter two integers 
+  100 200
+> Before swap: 
+  100 200
+  After swap:
+  200 100
+
+Algorithm-1:
+1. Start
+2. Read num1, num2 
+3. Display "Before swap" num1, num2
+4. temp = num1 
+5. num1 = num2 
+6. num2 = temp
+7. Display "After swap" num1, num2
+8. Stop 
+
+Algorithm-2:
+1. Start
+2. Read num1, num2 
+3. Display "Before swap" num1, num2
+4. num1 = num1 + num2 
+5. num2 = num1 - num2 
+6. num1 = num1 - num2 
+7. Display "After swap" num1, num2
+8. Stop
+  
+  
+ 
+num1 = 100
+num2 = 200 
+
+temp = num1; // 100
+num1 = num2; // num1 = 200
+num2 = temp; // num2 = 100
+
+-----------------
+num1 = 100
+num2 = 200
+
+num1 = num1+num2 = 300
+num2 = num1 - num2 = 300-200 = 100 (got it)
+num1 = num1 - num2 = 300 -100 = 200 (got it) 
+
+num1 = -100
+num2 =  200
+>>
+num1 = -100+200 = 100
+num2 =  100 - 200 = -100 ( got it) 
+num1 = 100 - (-100) = 200 (got it) 
+
+
+Flowchart
+----------
+Use below online URL to draw flowchart
+https://app.diagrams.net/  
+
+Or you can download desktop version of it and install.
+
+
+
+
+
+
+
+
+
+
+

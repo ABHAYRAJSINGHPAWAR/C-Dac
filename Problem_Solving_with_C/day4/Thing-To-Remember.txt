@@ -1,0 +1,36 @@
+   ---------------------******-------------------------------******------------------------------------
+
+                                     for special character we use following
+
+  ----------------------------------------------*********--------------------------------------------
+
+  \\     backslash
+  \"     double quotation marks
+  \'     single quatation marks
+  \?     question marks
+  \n     for new line
+  \r     carriage return
+  \a     alert beep 
+  \t     horizontal tab
+  \b     backspace
+  \f     formfeed 
+  \v     vertical tab        
+  %%     to print "%"
+  %%d    to print "%d"
+
+
+                           format specifer
+
+  %lld          long long 
+  %ld           long
+  %d or %i      integer
+  %c            character
+  %s            string
+  %u            unsigned integer
+
+
+
+ /* NOTE: PRIu64 is a preprocessor macro and thus should go outside the quoted string. */
+   XXXXXXXXXXXXprintf("Sum of num is : %lld", sum);XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  we use ==>
+    printf("Sum of num is : %" PRIu64 "", sum);

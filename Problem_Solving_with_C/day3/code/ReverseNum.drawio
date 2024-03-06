@@ -1,0 +1,69 @@
+<mxfile host="Electron" modified="2024-02-25T04:04:30.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="1Re7VFTae0sJvJ3Jrahf" version="23.1.5" type="device">
+  <diagram name="Page-1" id="sK-jYg-6TbxnQxPh2tNn">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-1" value="Problem-3:Find out the reverse of a given integer number.&lt;br&gt;Enter number : 123&lt;br&gt;Reverse : 321&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;123%10 = 3 , 123-&amp;gt; 123/10 = 12&lt;br&gt;12%10 = 2&amp;nbsp; &amp;nbsp; 12 -&amp;gt; 12/10 = 1&lt;br&gt;1%10 = 1&amp;nbsp; &amp;nbsp; &amp;nbsp;1&amp;nbsp; -&amp;gt; 1/10 = 0&lt;br&gt;&lt;br&gt;&lt;br&gt;Algorithm:&lt;br&gt;1. Start&amp;nbsp;&lt;br&gt;2. Read num&amp;nbsp;&lt;br&gt;3. temp=num, rev=0&lt;br&gt;4. Repeat till temp!=0:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;rev = rev*10 + temp%10&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; temp = temp/10&lt;br&gt;5. Display rev&amp;nbsp;&lt;br&gt;6. Stop" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="230" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-2" target="nGM7_z7pL1NemWqY_nnO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-3" target="nGM7_z7pL1NemWqY_nnO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-3" value="Read num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-5" target="nGM7_z7pL1NemWqY_nnO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-5" value="temp = num&lt;br&gt;rev = 0" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-7" target="nGM7_z7pL1NemWqY_nnO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-7" target="nGM7_z7pL1NemWqY_nnO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-7" value="temp != 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-9" target="nGM7_z7pL1NemWqY_nnO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-9" value="rev = rev*10 + temp%10&lt;br&gt;temp = temp/10" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-11" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="475" y="250" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-14" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGM7_z7pL1NemWqY_nnO-15" target="nGM7_z7pL1NemWqY_nnO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-15" value="Display rev" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-17" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nGM7_z7pL1NemWqY_nnO-18" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="460" width="90" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
