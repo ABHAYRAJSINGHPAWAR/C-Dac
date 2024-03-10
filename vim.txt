@@ -1,0 +1,59 @@
+*************           Cheat Sheet  *************
+
+h       move cersor left 
+j       move cursor down
+k       move cursor up
+l       move cursor right
+
+b       move cursor to the previous word
+w       move cursor to the next word
+:m -[num] move line on num
+
+gg      go to first line of document
+G       go to last line
+5gg     go to line 5
+2yy     copy two line
+3dd     cut two line
+X        delete character
+cc      change entire line
+ciw     change entire word
+
+p       paste the line after cursor
+
+ 
+0       jump start of line
+$       jump end of line
+i       insert before tthe cursor
+I       insert at the begining of the line
+a       append afer the cursor
+A       insert at the end of line
+ea      insert at the end of word
+
+o       append the new line below the current line
+O       append the new line above the current line
+
+ctrl+h   delete the character before the cursor
+ctrl+w   delete word before the cursor
+
+esc/ctrl+c   exit insert mode
+
+u       undo
+ctrl+r  redo
+ctrl +e  move screen down one line
+ctrl+y   move screen up one line
+ctrl+b   move screen up one page
+ctrl+f   move screen down one page
+
+:e      edit a file
+:ls     list of open buffer
+:ter     terminal
+
+}       jump next paragraph
+{       jump previous paragraph
+
+gd       move to local declaration
+gD       move to global Declaration
+
+set nu   enable number
+
+
